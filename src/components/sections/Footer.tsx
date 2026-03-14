@@ -1,4 +1,5 @@
 import { LINKS } from "@/config/links";
+import logo from "@/assets/logo.png";
 
 const Footer = () => {
   const year = new Date().getFullYear();
