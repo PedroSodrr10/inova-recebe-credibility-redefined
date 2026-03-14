@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { LINKS } from "@/config/links";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Serviços", href: "#servicos" },
@@ -29,8 +30,8 @@ const Header = () => {
       }`}
     >
       <div className="container flex items-center justify-between h-16 md:h-18">
-        <a href="#" className="text-xl font-heading font-bold tracking-tight text-secondary">
-          INOVA <span className="text-primary">RECEBE</span>
+        <a href="#" className="flex items-center">
+          <img src={logo} alt="INOVA RECEBE" className="h-10 md:h-12 w-auto" />
         </a>
 
         {/* Desktop nav */}
