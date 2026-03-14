@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { LINKS } from "@/config/links";
+import logo from "@/assets/logo.png";
 
 const navItems = [
   { label: "Serviços", href: "#servicos" },
