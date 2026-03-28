@@ -29,9 +29,9 @@ const Header = () => {
           : "bg-card border-b border-transparent"
       }`}
     >
-      <div className="container flex items-center justify-between h-16 md:h-18">
+      <div className="container flex items-center justify-between h-16 md:h-18 overflow-hidden">
         <a href="#" className="flex items-center">
-          <img src={logo} alt="INOVA RECEBE" className="h-18 md:h-20 w-auto" />
+          <img src={logo} alt="INOVA RECEBE" className="h-8 md:h-12 w-auto max-h-full" />
         </a>
 
         {/* Desktop nav */}
