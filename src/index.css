@@ -6,6 +6,7 @@
 
 @layer base {
   :root {
+    color-scheme: light;
     --background: 210 20% 96%;
     --foreground: 210 29% 15%;
 
